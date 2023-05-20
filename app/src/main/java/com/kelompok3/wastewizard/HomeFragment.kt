@@ -41,13 +41,11 @@ class HomeFragment : Fragment() {
             if (!isChecked) {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
                 editor.putBoolean("night", false)
-                editor.apply()
             } else {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
                 editor.putBoolean("night", true)
-                editor.apply()
             }
-            activity?.recreate()
+            editor.apply()
         }
 
         auth = FirebaseAuth.getInstance()
