@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#7CBF97"
+    android:background="@color/background_profile"
     tools:context=".ProfileFragment">
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="88dp"
             android:layout_margin="65dp"
+            android:backgroundTint="@color/background_shape"
             app:cardCornerRadius="30dp"
             app:cardElevation="10dp"
             app:contentPadding="20dp">
@@ -29,14 +30,13 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="185dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="start"
+                android:layout_gravity="center"
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="0dp"
                 android:text="PROFILE"
-                android:textAlignment="textStart"
-                android:textColor="#009688"
+                android:textColor="@color/background_profile"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -46,6 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_margin="20dp"
+            android:backgroundTint="@color/background_shape"
             app:cardCornerRadius="30dp"
             app:cardElevation="15dp"
             app:contentPadding="20dp">
@@ -60,6 +61,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Aurellia Rasya Gunawan"
+                    android:textColor="@color/background_profile"
                     android:textAlignment="viewStart"
                     android:textSize="24sp" />
 
@@ -67,12 +69,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="1101213214"
+                    android:textColor="@color/background_profile"
                     android:textSize="24sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="TT-45-INT"
+                    android:textColor="@color/background_profile"
                     android:textSize="24sp" />
             </LinearLayout>
 
@@ -82,6 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_margin="20dp"
+            android:backgroundTint="@color/background_shape"
             app:cardCornerRadius="30dp"
             app:cardElevation="10dp"
             app:contentPadding="20dp">
@@ -94,17 +99,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Chantika Rahma Galih AA"
+                    android:textColor="@color/background_profile"
                     android:textAlignment="viewStart"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="1101213128"
+                    android:textColor="@color/background_profile"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="TT-45-02"
+                    android:textColor="@color/background_profile"
                     android:textSize="24sp" />
             </LinearLayout>
 
@@ -113,6 +121,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_margin="20dp"
+            android:backgroundTint="@color/background_shape"
             app:cardCornerRadius="30dp"
             app:cardElevation="10dp"
             app:contentPadding="20dp">
@@ -126,18 +135,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Hazman Wirayudha"
+                    android:textColor="@color/background_profile"
                     android:textAlignment="viewStart"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="1101213280"
+                    android:textColor="@color/background_profile"
                     android:textSize="24sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="TT-45-02"
+                    android:textColor="@color/background_profile"
                     android:textSize="24sp" />
             </LinearLayout>
 
@@ -146,6 +158,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_margin="20dp"
+            android:backgroundTint="@color/background_shape"
             app:cardCornerRadius="30dp"
             app:cardElevation="15dp"
             app:contentPadding="20dp">
@@ -158,18 +171,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Rifki Rosada"
+                    android:textColor="@color/background_profile"
                     android:textAlignment="viewStart"
                     android:textSize="24sp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="101210191"
+                    android:textColor="@color/background_profile"
                     android:textSize="24sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="TT-45-02"
+                    android:textColor="@color/background_profile"
                     android:textSize="24sp" />
             </LinearLayout>
 

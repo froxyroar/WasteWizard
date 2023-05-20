@@ -10,9 +10,17 @@
     <color name="background_data">#3aada8</color>
     <color name="background_tempat">#557c83</color>
     <color name="background_splash">#a2d5ac</color>
+    <color name="background_login">#557c83</color>
+    <color name="background_login1">#3aada8</color>
+    <color name="background_login2">#a2d5ac</color>
+    <color name="background_google">#d9d9d9</color>
+    <color name="background_shape">#FFFFFF</color>
+    <color name="line_news">#39AEA9</color>
+    <color name="news_title">#080808</color>
     <color name="text_place">#FFFFFF</color>
     <color name="text_capacity">#78989e</color>
     <color name="text_data">#FFFFFF</color>
+    <color name="text_profile">#009688</color>
     <color name="mode_bg">#3AADA8</color>
     <color name="mode_bg1">#1F1E2C</color>
 </resources>
