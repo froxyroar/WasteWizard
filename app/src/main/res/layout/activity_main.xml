@@ -15,22 +15,47 @@
         android:text="Welcome!"
         android:textColor="@color/white"
         android:textSize="24sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="284dp"
+        android:layout_height="82dp"
+        android:background="@drawable/loginshape"
+        android:backgroundTint="#3aada8"
+        app:backgroundTint="#3aada8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
+        app:layout_constraintVertical_bias="0.596"
+        tools:layout_editor_absoluteX="64dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="279dp"
+        android:layout_height="73dp"
+        android:background="@drawable/loginshape"
+        app:backgroundTint="#a2d5ac"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611"
+        tools:layout_editor_absoluteX="53dp" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_signin"
-        android:layout_width="288dp"
-        android:layout_height="48dp"
-        android:background="@drawable/loginshape"
 
+        android:layout_width="239dp"
+        android:layout_height="39dp"
+        android:background="@drawable/loginshape"
         android:fontFamily="@font/bebasn"
         android:text="Continue with google"
         android:textColor="#000000"
-        android:textSize="24dp"
+        android:textSize="20dp"
         app:backgroundTint="#d9d9d9"
         app:icon="@drawable/logogoogle"
         app:iconGravity="start"
@@ -39,10 +64,9 @@
         app:iconTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.616" />
+        app:layout_constraintVertical_bias="0.596" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
